@@ -1,0 +1,96 @@
+.forma-compra{
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.forma-compra__logo {
+  padding: 4rem 0;
+  text-align: center;
+
+}
+.forma-compra__descricao {
+  color: var(--cor-texto);
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.75rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  max-width: 960px;
+  padding: 0 1rem 0 1rem;
+  width: 100%;
+ 
+}
+
+.forma-compra__cards-cva{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-items: center;
+  
+  row-gap: 10px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+.forma-compra__card-cva{
+  background-color: var(--fundo-cards);
+  max-width: 260px;
+  padding: 2rem;
+  
+}
+
+.forma-compra__card-cva:hover{
+  border-top: solid 2px var(--cor-titulo);
+}
+.forma-compra__card-cvaImg{
+  width: 100%;
+  margin-bottom: 1rem;
+
+}
+.forma-compra__card-cvaImg img{
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  
+}
+.forma-compra__card-cvaConteudo{
+  text-align: center;
+}
+.forma-compra__card-cvaConteudoTitulo{
+  font-size: 1.250rem;
+  color: var(--cor-titulo);
+  margin-bottom: 1rem;
+}
+
+.forma-compra__card-cvaConteudoDescricao {
+  font-size: 1rem;
+  color: var(--cor-texto);
+  margin-bottom: 2rem;
+}
+
+.forma-compra__btnSaibamais {
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+.forma-compra__btnSaibamais a{
+  background-color: var(--cor-titulo);
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+
+.forma-compra__btnSaibamais a:hover{
+  background-color: #006ac7;
+}
+
+/* ////////////////////////////////////////////////////
+                MEDIAS QUERIES
+/////////////////////////////////////////////////////*/
+/* @media (max-width: 1180px){
+  .nav-menu{
+    width: 100%;
+  }
+} */
+@media (max-width: 820px){
+
+}

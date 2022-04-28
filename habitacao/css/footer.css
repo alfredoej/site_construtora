@@ -1,0 +1,67 @@
+footer{
+  background-color: var(--cor-engepar);
+  color: var(--primary-color);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer{
+  display: flex; 
+  justify-content: space-between;
+  
+}
+
+.footer__list{
+  padding-top: 2rem;
+  width: 23%; 
+  margin: 1%;
+}
+.footer__list h3{
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+}
+.footer__list p, .footer__list  li{
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+.footer__list.engepar img {
+  max-width:50%;
+}
+
+.footer__redesSociais {
+  margin-top: 1rem;
+}
+.footer__redesSociais img{
+  
+  margin-right: 1rem;
+}
+.footer__list.engepar .cidade{
+  padding-top: 1rem;
+}
+
+.footer__list.faleconosco .esc{
+  margin-bottom: 1rem;
+}
+
+.rodape{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+/* ////////////////////////////////////////////////////
+                MEDIAS QUERIES
+/////////////////////////////////////////////////////*/
+
+@media (max-width: 672px){
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+  }
+
+  .footer__list{
+    width: 100%; 
+
+  }
+}

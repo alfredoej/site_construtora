@@ -1,0 +1,58 @@
+.sobre{
+  max-width: 100%;
+  display: flex;
+}
+.sobre__img {
+  width: 50%;
+}
+
+.sobre__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.sobre__descricao{
+  background-color: var(--cor-engepar);
+  color: var(--primary-color);
+  padding: 5rem 3rem;
+  width: 50%;
+}
+
+.sobre__descricao h2{
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  
+}
+.sobre__descricao h3{
+  margin-top: 2rem;  
+  font-size: 1rem;
+ 
+}
+.sobre__descricao p{
+  line-height: 1.2rem;
+  font-size: 0.875rem;
+}
+
+/* ////////////////////////////////////////////////////
+                MEDIAS QUERIES
+/////////////////////////////////////////////////////*/
+@media (max-width: 768px){
+  .sobre{
+    max-width: 100%;
+    display: initial;
+  }
+  .sobre__img {
+    width: 100%;
+  }
+  
+  .sobre__img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sobre__descricao{
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+  }
+}

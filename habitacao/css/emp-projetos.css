@@ -1,0 +1,100 @@
+.emp{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+.emp .emp__titulo {
+  padding: 4rem 0;
+  text-align: center;
+
+}
+
+.emp .emp__titulo h3{
+  color: var(--cor-texto);
+  font-size: 2rem;
+  font-weight:lighter;
+  padding-bottom: 2rem;
+
+}
+
+.emp .emp__titulo p{
+  color: var(--cor-texto);
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.emp .emp__projetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.emp .emp__projetos .emp__item {
+  max-width: 470px;
+  width: 100%;
+
+}
+
+.emp .emp__projetos .emp__item:nth-child(odd){
+ margin-right: 20px;
+}
+
+.emp .emp__projetos .emp__item img{
+  max-width: 470px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.emp .emp__projetos .emp__item  .emp__itemConteudo{
+  padding: 2rem;
+  background-color: var(--fundo-cards)
+}
+
+.emp .emp__projetos .emp__item  .emp__itemConteudo p{
+  color : var(--cor-texto);
+}
+
+.emp .emp__projetos .emp__item  .emp__itemConteudo .emp__itemConteudoTitulo{
+  
+  margin-bottom: 1rem;
+
+}
+
+.emp .emp__projetos .emp__item  .emp__itemConteudo .emp__itemConteudoTitulo span{
+  padding-left: 0.3rem;
+  border-left: 1px solid var(--cor-texto);
+}
+
+.emp .emp__projetos .emp__item  .emp__itemConteudo .emp__itemConteudoNome{
+  margin-bottom: 1rem;
+}
+
+.emp .emp__projetos .emp__item  .emp__itemConteudo .emp_itemConteudoDescricao{
+  margin-bottom: 2.5rem;
+}
+
+/* ////////////////////////////////////////////////////
+                MEDIAS QUERIES
+/////////////////////////////////////////////////////*/
+
+@media (max-width: 960px){
+  .emp .emp__projetos .emp__item:nth-child(odd){
+    margin-right: 0;
+   }
+   .emp .emp__projetos .emp__item{
+    margin-bottom: 10px;
+   }
+}
+
+/* @media (max-width: 768x){
+  .emp .emp__projetos .emp__item {
+    width: 100%;
+  }
+
+  .emp .emp__projetos .emp__item img{
+    width: 100%;
+  }
+}  */
