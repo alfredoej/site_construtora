@@ -13,5 +13,5 @@ A ideia foi copiar observando o site <a href="https://www.engepar.com/">Engepar<
 - No site Habitação tentei aplicar as metodologia BEM apreendidos no curso da Alura "Arquitetura CSS: descomplicando os problemas", que facilitou trabalhar com a separação e arquivos e nomenclatura das classe CSS.
 
 ## Site Publicado no Github Pages
-- Site Principal, clique <a href="https://alfredoej.github.io/site_construtora/index.html">aqui</>
-- Site Habitação, clique <a href="https://alfredoej.github.io/site_construtora/habitacao/index.html">aqui</>
+- Site Principal, clique <a href="https://alfredoej.github.io/site_construtora/index.html">aqui</a>
+- Site Habitação, clique <a href="https://alfredoej.github.io/site_construtora/habitacao/index.html">aqui</a>
