@@ -11,3 +11,7 @@ A ideia foi copiar observando o site <a href="https://www.engepar.com/">Engepar<
 ## Lições aprendidadas
 - Entender o melhor uso do Flexbox e CSS Grid e consegui ir adaptando de cabeça a questão da responsividade.
 - No site Habitação tentei aplicar as metodologia BEM apreendidos no curso da Alura "Arquitetura CSS: descomplicando os problemas", que facilitou trabalhar com a separação e arquivos e nomenclatura das classe CSS.
+
+## Site Publicado no Github Pages
+- Site Principal, clique <a href="https://alfredoej.github.io/site_construtora/index.html">aqui</>
+- Site Habitação, clique <a href="https://alfredoej.github.io/site_construtora/habitacao/index.html">aqui</>
