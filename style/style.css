@@ -529,7 +529,7 @@ footer .footer-container .developed{
     width:100vw;
     height: 100vh;
 
-    background-color: #dadada;
+    background-color: var(--cor-principal);
     z-index: 10;
 
     display: flex;
@@ -537,17 +537,18 @@ footer .footer-container .developed{
     align-items: center;
   }
   
-  header .container .nav-container .nav-menu.on .nav_menu_list {
+  header .container .nav-container .nav-menu.on nav{
     display: block;
     text-align: center;
     line-height: 3rem;
     font-size: 4rem;
   }
-  
+ 
+
   header .container .nav-container .nav-menu.on .menu-toggle {
     position: absolute;
-    right: 25px;
-    top: 15px;
+    right: 0px;
+    top: 87px;
   }
 
   header .container .nav-container .nav-menu.on .menu-toggle .one{
@@ -562,8 +563,20 @@ footer .footer-container .developed{
     transform: rotate(-45deg) translate(8px, -9px);
   }
 
+  header .container .nav-container .nav-menu.on nav .nav_menu_list{
+    display: block;
+  }
+
+  header .container .nav-container .nav-menu.on nav .nav_menu_list a{
+    font-size: 1.6rem;
+  }
+
+  header .container .nav-container .nav-menu.on nav .nav_menu_list button{
+    font-size: 1.6rem;
+  }
+
   .hero .wrapper .areas-atuacao .areas-atuacao-links {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 

@@ -54,9 +54,10 @@ header{
 .faixa-contato {
   color: var(--cor-texto);
   background-color: var(--gray-100);
-  font-size: 0.875rem;
-  padding: 1rem;
+  font-size: 0.75rem;
+  padding: 0.8rem;
   text-align: center;
+
 
 }
 
@@ -130,4 +131,62 @@ header{
     height: 30px;
     margin-right: 20px;
   }
+
+    /** fullscreen */
+    header .navbar.on {
+      position: absolute;
+      top:0;
+      left:0;
+  
+      width:100vw;
+      height: 100vh;
+  
+      background-color: var(--cor-principal);
+      z-index: 10;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    header .navbar.on .navbar-brand{
+      display: none;
+    }
+   
+
+    header .navbar.on .nav-menu{
+      display: block;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 4rem;
+    }
+   
+  
+    header .navbar.on .menu-toggle {
+      position: absolute;
+      right: 0px;
+      top: 75px;
+    }
+  
+    header .navbar.on .menu-toggle .one{
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+  
+    header .navbar.on .menu-toggle .two{
+      opacity: 0;
+    }
+  
+    header .navbar.on .menu-toggle .three{
+      transform: rotate(-45deg) translate(8px, -9px);
+    }
+  
+    
+    header .navbar.on .nav-menu .nav-item a{
+      font-size: 1.6rem;
+      
+    }
+  
+    header .navbar.on .nav-menu .nav-item button{
+      font-size: 1.6rem;
+    }
 }
